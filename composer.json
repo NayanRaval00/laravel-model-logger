@@ -1,5 +1,5 @@
 {
-    "name": "laravelLogger/modelLogger",
+    "name": "laravellogger/modellogger",
     "description": "A Laravel package that logs model events like created, updated, and deleted.",
     "type": "library",
     "license": "MIT",
