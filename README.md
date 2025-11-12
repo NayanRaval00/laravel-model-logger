@@ -27,7 +27,7 @@ In your Laravel project’s `composer.json`:
 "repositories": [
     {
         "type": "path",
-        "url": "app/packages/laravelLogger/odelLogger",
+        "url": "app/packages/laravelLogger/modelLogger",
         "options": { "symlink": true }
     }
 ]
