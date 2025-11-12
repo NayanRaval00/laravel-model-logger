@@ -31,3 +31,16 @@ In your Laravel project’s `composer.json`:
         "options": { "symlink": true }
     }
 ]
+```
+
+2️⃣ Require the package
+composer require nayan/model-logger:@dev
+
+3️⃣ Publish config (optional)
+
+php artisan vendor:publish --tag=config 
+
+(This will create: config/model-logger.php)
+
+4️⃣ Run migrations (if using database logging)
+php artisan migrate
