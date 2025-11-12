@@ -1,0 +1,30 @@
+{
+    "name": "laravelLogger/modelLogger",
+    "description": "A Laravel package that logs model events like created, updated, and deleted.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nayan Raval",
+            "email": "ravalnayan029@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "laravelLogger\\ModelLogger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "laravelLogger\\ModelLogger\\ModelLoggerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
